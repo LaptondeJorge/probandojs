@@ -1,0 +1,32 @@
+/* Estilo para la tabla */
+table {
+  /* Ocupa el ancho completo del contenedor padre */
+  width: 100%;
+  /* Elimina el espacio entre las celdas de la tabla */
+  border-collapse: collapse;
+  /* Márgenes superiores para separar la tabla del contenido superior */
+  margin-top: 20px;
+}
+
+/* Estilo para las celdas de encabezado y datos */
+th,
+td {
+  /* Borde de 1 píxel sólido con un tono de gris claro */
+  border: 1px solid #ddd;
+  /* Espaciado interno de 8 píxeles en todas las direcciones */
+  padding: 8px;
+  /* Alineación del texto a la izquierda */
+  text-align: left;
+}
+
+/* Estilo para las celdas de encabezado */
+th {
+  /* Fondo gris claro para resaltar las celdas de encabezado */
+  background-color: #f2f2f2;
+}
+
+/* Estilo para las filas con la clase 'salary-green' */
+tr.salary-green {
+  /* Fondo verde claro para resaltar las filas con salarios mayores a 2000 */
+  background-color: #b0e57c;
+}

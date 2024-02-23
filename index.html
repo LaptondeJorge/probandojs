@@ -1,0 +1,39 @@
+<!-- Tipo de documento y especificación del idioma -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Configuración de caracteres y escala de la página -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Enlace a la hoja de estilos -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- Creación de tabla con la clase 'table' -->
+    <table class="table">
+      <thead>
+        <!-- Encabezado de la tabla con nombres de columnas -->
+        <tr>
+          <th id="nombre">Nombre</th>
+          <th id="apellido">Apellido</th>
+          <th id="profesion">Profesión</th>
+          <th id="salario">Salario</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Fila de la tabla destinada a mostrar información de un empleado, identificada por 'employeeRow' -->
+        <tr id="employeeRow">
+          <!-- Celdas vacías que se llenarán con datos dinámicamente mediante JavaScript -->
+          <td id="nombreValue"></td>
+          <td id="apellidoValue"></td>
+          <td id="profesionValue"></td>
+          <td id="salarioValue"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Inclusión del archivo de script JavaScript -->
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
